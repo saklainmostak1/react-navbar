@@ -12,6 +12,7 @@ const Navbar = () => {
         {id: 4, name: 'Contact', path: '/contsct'},
         {id: 5, name: 'About', path: '/about'}
     ]
+  
     return (
         <nav className='bg-purple-300 w-full'>
             <div onClick={() => setOpen(!open)} 
